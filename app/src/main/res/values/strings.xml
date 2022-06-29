@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Smoge detector</string>
+
+    <string-array name="SelectCity">
+
+        <item>Select City</item>
+        <item>Faisalabad</item>
+        <item>Shahkot</item>
+        <item>Lahore</item>
+
+    </string-array>
+
+    <string name="hvall">Humidity:</string>
+    <string name="mess">Message:</string>
+    <string name="smoke">Smoke:</string>
+    <string name="tem">Temperature:</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "501603601616",
+    "firebase_url": "https://smoge-detector.firebaseio.com",
+    "project_id": "smoge-detector",
+    "storage_bucket": "smoge-detector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501603601616:android:7f89eb181aececcc2ae2d5",
+        "android_client_info": {
+          "package_name": "com.example.smogedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501603601616-rmnr530od09quf4qr7h7iuah82hmfhkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smogedetector",
+            "certificate_hash": "f851b15fd5d2e002744a6b00080c2857f6837794"
+          }
+        },
+        {
+          "client_id": "501603601616-varaamth0j06tkphevvbrmbv3hact20a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChLKzg6-1SQYvQ-Zawy-EVu6GUOqhiPxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501603601616-varaamth0j06tkphevvbrmbv3hact20a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

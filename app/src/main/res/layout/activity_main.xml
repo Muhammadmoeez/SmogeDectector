@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/background_Color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/background_Color"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/city"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_bg"
+                android:entries="@array/SelectCity"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_Color">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="@string/hvall"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+
+            <TextView
+                android:id="@+id/hvall"
+                android:layout_width="175dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/background_Color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"
+                android:background="@drawable/edit_text_bg"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_Color">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="@string/smoke"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+
+            <TextView
+                android:id="@+id/smoke"
+                android:layout_width="175dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/background_Color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"
+                android:background="@drawable/edit_text_bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_Color">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="@string/tem"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+
+            <TextView
+                android:id="@+id/tem"
+                android:layout_width="175dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/background_Color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"
+                android:background="@drawable/edit_text_bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_Color">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:text="@string/mess"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+
+            <TextView
+                android:id="@+id/mssg"
+                android:layout_width="175dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/background_Color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"
+                android:background="@drawable/edit_text_bg"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_Color">
+
+            <Button
+                android:id="@+id/result"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="Result"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:fontFamily="open sans', arial, sans-serif"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
